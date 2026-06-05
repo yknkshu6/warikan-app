@@ -72,7 +72,7 @@ export default function DailyExpenseSheet({
             この日の支出はありません
           </div>
         ) : (
-          <ScrollArea className="h-full px-4 pb-8">
+          <ScrollArea className="h-[calc(100vh-300px)] px-4 pb-8">
             <div className="space-y-2">
               {dayExpenses.map(expense => (
                 <ExpenseCard
